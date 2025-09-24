@@ -23,7 +23,7 @@ import {
   PlayCircle
 } from "lucide-react";
 
-const API_URL = "http://127.0.0.1:5000"; // Flask backend URL
+const API_URL = "http://65.0.93.150:5000"; // Flask backend URL
 
 const SpotifyApp = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
